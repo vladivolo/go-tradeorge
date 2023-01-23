@@ -7,7 +7,7 @@ import (
 )
 
 type CreateOrderResponse struct {
-	Uuid         string `json:""`
+	Uuid         string `json:"uuid"`
 	Bnewbalavail string `json:"bnewbalavail"`
 	Snewbalavail string `json:"snewbalavail"`
 }

@@ -42,7 +42,7 @@ func NewClient(apiKey string, apiSecret string) *Client {
 		BaseURL:    "https://tradeogre.com/api/v1",
 		UserAgent:  "go-tradeorge/golang",
 		HTTPClient: http.DefaultClient,
-		Debug:      true,
+		Debug:      false,
 		Logger:     log.New(os.Stderr, "go-tradeorge ", log.LstdFlags),
 	}
 }
